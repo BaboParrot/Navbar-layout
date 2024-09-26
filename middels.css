@@ -1,0 +1,62 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #555;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: #483838;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #c25ac0;
+            color: rgb(0, 0, 0);
+        }
+
+  .content {/*css som gjør at siden er midtstilt*/
+        max-width: 500px;
+        margin: auto;
+        background: rgb(0, 0, 0);
+        padding: 20px;
+    }
+    .topnav a {
+        /*float: left;*/
+        color: #ffffff;
+        text-align: center;
+       /* padding: 14px 16px;*/
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .topnav {/*for plassering av navbar på samme måte som content, pluss annen bakgrunn*/
+        max-width: 500px;
+        margin: auto;
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        background-color: #7f43a4;
+    }
